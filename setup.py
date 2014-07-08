@@ -17,7 +17,7 @@ setup(
     packages = [ "Cocoa", "CoreFoundation", "Foundation", "AppKit", "PyObjCTools" ],
     namespace_packages = ['PyObjCTools'],
     dependency_links = [
-        'https://github.com/jacktoole1/pyobjc-core/tarball/master',
+        'https://github.com/Khan/pyobjc-core/tarball/master',
     ],
     ext_modules = [
         # CoreFoundation
